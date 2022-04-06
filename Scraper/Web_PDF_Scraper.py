@@ -5,9 +5,10 @@ import requests
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
+# update me
 url = r"https://tobychristie.com/loop-data-2021-nascar-cup-series/"
 
-#If there is no such folder, the script will create one automatically
+# you do not need to create the folder in advanced.
 folder_location = r'C:\Users\kchen\OneDrive\MADS\SIADS591_592_Milestone1\Milestone_I\data\loop_TobyChristie\pdf\2021'
 if not os.path.exists(folder_location):os.mkdir(folder_location)
 
