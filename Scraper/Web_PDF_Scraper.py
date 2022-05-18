@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 url = r"https://tobychristie.com/racing-series/nascar-cup-series/2022-loop-data/"
 
 #If there is no such folder, the script will create one automatically
-folder_location = r'C:\Users\kchen\OneDrive\MADS\SIADS591_592_Milestone1\Milestone_I\data\loop_TobyChristie\pdf\2022'
+folder_location = r'.\SIADS591_592_Milestone1\Milestone_I\data\loop_TobyChristie\pdf\2022'
 if not os.path.exists(folder_location):os.mkdir(folder_location)
 
 response = requests.get(url)
